@@ -1,13 +1,20 @@
-import { Button } from 'flowbite-react';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { Home, Landing } from './pages';
 
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Home />,
+    children: [
+      {
+        index: true,
+        element: <Landing />,
+      },
+    ],
+  },
+]);
 function App() {
-  return (
-    <div>
-      <Button className="btn btn-accent btn-block bg-secondary underline text-5xl">
-        Click me
-      </Button>
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
