@@ -14,20 +14,20 @@ const LandingHero = () => {
           <h2 className="text-white  mb-4 mt-8 w-4/5 text-center  md:w-auto font-semibold font-sans capitalize text-2xl md:text-2xl lg:text-5xl">
             Unveiling Ratiba™ Enterprise Suite
           </h2>
-          <p className="text-white  w-4/5 md:w-3/5   text-center text-xl md:text-xl lg:text-4xl">
+          <p className="text-white  w-4/5 md:w-3/5   text-center text-xl md:text-xl lg:text-3xl">
             An enterprise solution designed to enable organizations take
             advantage of new market opportunities and manage growth
           </p>
-          <div className="flex flex-col mt-4 md:flex-row justify-center md:justify-between w-full md:w-1/2 items-center">
+          <div className="flex flex-col mt-8 md:flex-row justify-center md:justify-between w-full md:w-auto gap-4 md:gap-8 items-center">
             <Link
               to="/"
-              className="btn  md:w-[20vw] text-xl w-[50vw] rounded-sm bg-white text-[#9b0808] uppercase "
+              className="btn  md:w-[25vw] text-xl w-[50vw] rounded-sm bg-white text-[#9b0808] uppercase "
             >
               about us
             </Link>
             <Link
               to="/"
-              className="btn rounded-sm mt-4 md:mt-0 w-[50vw] md:w-[20vw] bg-[#9b0808] text-white uppercase text-xl"
+              className="btn rounded-sm  md:mt-0 w-[50vw] md:w-[25vw] bg-[#9b0808] border-[#9b0808] text-white uppercase text-xl"
             >
               get started
             </Link>

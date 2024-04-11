@@ -1,8 +1,11 @@
-import { LandingHero } from "../SubComponents";
+import { LandingHero, LandingModule } from "../SubComponents";
 
 const Landing = () => {
   return (
+    <>
    <LandingHero/>
+   <LandingModule/>
+    </>
   );
 };
 

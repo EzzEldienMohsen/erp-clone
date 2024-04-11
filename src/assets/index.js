@@ -1,6 +1,10 @@
 export const logo =
   'https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57e2920ddc995a8426f1b6b1_ratibalogo-white.png';
 
+  export const blackFirstModule =
+    'https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df7d39b08345807bda56d0_hc-black.svg';
+  export const redFirstModule ='https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df7c9d813bf6950b06a55d_hc-red.svg';
+
   export const landingModules = [
     {
       id: 1,
