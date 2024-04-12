@@ -40,7 +40,7 @@ buttons.forEach((button) => button.classList.remove(`${activeClass}-${bId}`));
         {landingModules.map((module)=>{
           return (
             <section key={module.id} id={module.id} className="hidden">
-              <h1 className="text-md md:text:lg lg:text-2xl mb-2">{module.title}</h1>
+              <h1 className="text-lg md:text:xl lg:text-2xl mb-2">{module.title}</h1>
               <p className="mb-2">{module.firstText}</p>
               <div className="flex flex-col md:flex-row justify-between gap-6">
                 <img src={module.img} alt="img" className="w-1/2 mr-6" />
