@@ -97,3 +97,8 @@ export const logo =
       },
     },
   ];
+  export const initialValues = {
+    name: '',
+    email: '',
+  };
+

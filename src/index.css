@@ -54,3 +54,9 @@
         border-bottom: 0px ;
 
 }
+.landing-demo{
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+    background-image: linear-gradient(180deg,rgba(155,8,8,.6),rgba(155,8,8,.6)),url("https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57dfb257b08345807bdadb48_demo-bg-black.jpg");
+    background-position: 0 0, 50% 40%;
+}
