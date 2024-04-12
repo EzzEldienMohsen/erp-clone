@@ -2,10 +2,10 @@ import { LandingHero, LandingModule } from "../SubComponents";
 
 const Landing = () => {
   return (
-    <>
-   <LandingHero/>
-   <LandingModule/>
-    </>
+    <div className="box-border w-[100vw]">
+      <LandingHero />
+      <LandingModule />
+    </div>
   );
 };
 

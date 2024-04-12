@@ -23,7 +23,7 @@ const Header = () => {
 
       {/* Drawer End */}
       <div className="w-[50vw] md:w-[70vw] flex justify-center items-center">
-        <img src={logo} alt="logo" />
+        <img src={logo} alt="logo" className='w-3/5 md:w-auto'/>
       </div>
       <div className="w-[25vw] md:w-[15vw] h-[95px] flex text-white justify-center items-center gap-4 hover:bg-[#9b0808] active:bg-[#9b0808] border-l-2 border-l-[#ddd] border-spacing-2">
         <MdLock className="w-4 h-4 md:w-6 md:h-6 text-md md:text-xl" />

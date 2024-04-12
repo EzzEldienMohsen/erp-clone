@@ -5,6 +5,38 @@ export const logo =
     'https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df7d39b08345807bda56d0_hc-black.svg';
   export const redFirstModule ='https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df7c9d813bf6950b06a55d_hc-red.svg';
 
+
+  export const buttonModule = [
+    {
+      id: 'a',
+      cardId: 1,
+      class: 'Button',
+      activeClass: 'activeButton',
+      text: 'Human Capital Management',
+    },
+    {
+      id: 'b',
+      cardId: 2,
+      class: 'Button',
+      activeClass: 'activeButton',
+      text: 'Payroll Management',
+    },
+    {
+      id: 'c',
+      cardId: 3,
+      class: 'Button',
+      activeClass: 'activeButton',
+      text: 'Workshop Module',
+    },
+    {
+      id: 'd',
+      cardId:4,
+      class: 'Button',
+      activeClass: 'activeButton',
+      text: 'Journey Management',
+    },
+  ];
+
   export const landingModules = [
     {
       id: 1,

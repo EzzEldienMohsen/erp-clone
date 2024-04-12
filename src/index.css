@@ -1,3 +1,56 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.Button-a{
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df7d39b08345807bda56d0_hc-black.svg");
+    color: black;
+    background-color: #f5f5f5;
+}
+
+.activeButton-a{
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df7c9d813bf6950b06a55d_hc-red.svg");
+    background-color: white;
+    color: #9b0808;
+        border-bottom: 0px ;
+
+}
+.Button-b{
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df8f4d437ad7d20b3c291b_payroll-black.svg");
+    color: black;
+    background-color: #f5f5f5;
+}
+
+.activeButton-b{
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df8f39437ad7d20b3c2918_payroll-red.svg");
+    background-color: white;
+    color: #9b0808;
+    border-bottom: 0px ;
+}
+.Button-c{
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df947c25c4cdeb03108bb0_workshop-black.svg");
+    color: black;
+    background-color: #f5f5f5;
+}
+
+.activeButton-c{
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df947cb08345807bda7f74_workshop-red.svg");
+    background-color: white;
+    color: #9b0808;
+        border-bottom: 0px ;
+
+}
+.Button-d{
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df947c3c801e07046181a2_journey-black.svg");
+    color: black;
+    background-color: #f5f5f5;
+}
+
+.activeButton-d{
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df947c437ad7d20b3c3a29_journey-red.svg");
+    background-color: white;
+    color: #9b0808;
+        border-bottom: 0px ;
+
+}
