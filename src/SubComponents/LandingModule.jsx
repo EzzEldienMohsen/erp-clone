@@ -37,7 +37,7 @@ const LandingModule = () => {
             initial={{ y: 10, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: -10, opacity: 0 }}
-            transition={{ duration: 0.2 }}
+            transition={{ duration: 0.5 }}
           >
             <h1 className="text-lg md:text:xl lg:text-2xl mb-2">
                 {module.title}
