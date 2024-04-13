@@ -1,5 +1,6 @@
 
-import { FooterCompanyLink, FooterContactInfo, FooterLogoSection, FooterModuleLink } from "../SubComponents";
+import { FooterContactInfo, FooterLink, FooterLogoSection } from "../SubComponents";
+import { companyLinks, moduleLinks } from "../assets";
 
 const Footer = () => {
   return (
@@ -7,8 +8,8 @@ const Footer = () => {
       <div className="flex flex-col lg:flex-row lg:justify-evenly ">
         <FooterLogoSection />
         <div className="lg:w-[60%] flex flex-col mt-6 lg:mt-0 justify-between items-start  lg:justify-evenly md:flex-row">
-          <FooterCompanyLink />
-          <FooterModuleLink />
+          <FooterLink title="company" link={companyLinks} />
+          <FooterLink title="module" link={moduleLinks} />
           <FooterContactInfo />
         </div>
       </div>
