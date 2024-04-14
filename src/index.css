@@ -64,22 +64,28 @@
     background-color: white;
 }
 .human-capital{
-        background-image: linear-gradient(180deg, rgba(132,5,8,.92), rgba(132,5,8,.92)), url(https://daks2k3a4ib2z.cloudfront.net/57dee8d…/57df7d3…_hc-black.svg);
-        background-position: 0 0, 20% 50%;
-        background-repeat: repeat, no-repeat;
-        background-size: auto, auto 80%;
+        background-image: linear-gradient(180deg,rgba(132,5,8,.7),rgba(132,5,8,.7)),url("https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df7d39b08345807bda56d0_hc-black.svg");;
+         background-position: 20% 60%;
+        background-color: #840508;
+        background-repeat: no-repeat, no-repeat;
+        background-size: auto, 25%;
+
 }
 .payroll{
-        background-image: linear-gradient(180deg, rgba(132,5,8,.92), rgba(132,5,8,.92)), url(https://daks2k3a4ib2z.cloudfront.net/57dee8d…/57df8f4…_payroll-black.svg);
-        background-position: 0 0, 20% 50%;
-        background-repeat: repeat, no-repeat;
-        background-size: auto, contain;
+        background-image: linear-gradient(180deg,rgba(132,5,8,.7),rgba(132,5,8,.7)),url("https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df8f4d437ad7d20b3c291b_payroll-black.svg");;
+         background-position: 20% 60%;
+        background-color: #840508;
+        background-repeat: no-repeat, no-repeat;
+        background-size: auto, 25%;
+
 }
 .workshop{
-        background-image: linear-gradient(180deg, rgba(132,5,8,.92), rgba(132,5,8,.92)), url(https://daks2k3a4ib2z.cloudfront.net/57dee8d…/57df947…_workshop-black.svg);
-        background-position: 0 0, 20% 50%;
-        background-repeat: repeat, no-repeat;
-        background-size: auto, contain;
+        background-image: linear-gradient(180deg,rgba(132,5,8,.7),rgba(132,5,8,.7)),url("https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df947c25c4cdeb03108bb0_workshop-black.svg");
+        background-position: 20% 60%;
+        background-color: #840508;
+        background-repeat: no-repeat, no-repeat;
+        background-size: auto, 25%;
+
 }
 .journey{
        background-image: linear-gradient(180deg, rgba(132,5,8,.7), rgba(132,5,8,.7)), url("https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df947c3c801e07046181a2_journey-black.svg");
