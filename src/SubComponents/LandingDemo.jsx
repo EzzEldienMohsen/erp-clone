@@ -23,7 +23,7 @@ const LandingDemo = () => {
       </p>
       <form
         onSubmit={handleSubmit}
-        className="flex flex-col md:flex-row gap-4 w-full justify-center items-center my-4"
+        className="flex flex-col md:flex-row gap-4 w-full justify-center items-center mt-8 mb-4"
       >
         {/* NAME */}
         <input
@@ -33,7 +33,7 @@ const LandingDemo = () => {
           value={value.name}
           onChange={handleChange}
           placeholder="Enter Your Name"
-          className="rounded-md px-2 border-2 focus:border-white w-[100%] md:w-[40%] placeholder:text-white placeholder:opacity-90 placeholder:font-light border-white text-white  bg-transparent "
+          className="rounded-md px-2 border-2 focus:border-white w-[100%] md:w-[35%] placeholder:text-white placeholder:opacity-90 placeholder:font-light border-white text-white  bg-transparent "
         />
         {/* EMAIL */}
         <input
@@ -43,7 +43,7 @@ const LandingDemo = () => {
           value={value.email}
           onChange={handleChange}
           placeholder="Enter Your Email"
-          className="rounded-md px-2 border-2 focus:border-white w-[100%] md:w-[40%] placeholder:text-white placeholder:opacity-90 placeholder:font-light border-white text-white  bg-transparent "
+          className="rounded-md px-2 border-2 focus:border-white w-[100%] md:w-[35%] placeholder:text-white placeholder:opacity-90 placeholder:font-light border-white text-white  bg-transparent "
         />
         {/* Submit */}
         <button
