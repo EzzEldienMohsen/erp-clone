@@ -11,7 +11,7 @@ const LandingModule = () => {
       <div className=" md:h-[130px] sm:px-0 md:px-10 grid grid-cols-2 md:flex md:flex-row bg-[#f5f5f5]">
         {buttonModule.map((button) => {
           return (
-            <button
+            <motion.button
               key={button.id}
               id={button.id}
               onClick={() => {
@@ -26,7 +26,7 @@ const LandingModule = () => {
               }  hover:text-[#9b0808] justify-center btn-square w-[50vw] md:w-1/4  h-[130px] border-1 border-gray-300 rounded-none  bg-no-repeat bg-[length:auto_95px] bg-center `}
             >
               <span className="mt-2 mb-1 font-light">{button.text}</span>
-            </button>
+            </motion.button>
           );
         })}
       </div>
