@@ -4,7 +4,7 @@ import { companyLinks, moduleLinks } from "../assets";
 
 const Footer = () => {
   return (
-    <div className="bg-[#e8e8e8] pt-16 px-6 pb-8 flex flex-col justify-start items-start">
+    <div className="bg-[#e8e8e8] pt-16 px-6 pb-8 flex flex-col justify-start items-start w-full">
       <div className="flex flex-col lg:flex-row lg:justify-evenly ">
         <FooterLogoSection />
         <div className="lg:w-[60%] flex flex-col mt-6 lg:mt-0 justify-between items-start  lg:justify-evenly md:flex-row">
