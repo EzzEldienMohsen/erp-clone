@@ -64,25 +64,25 @@
     background-color: white;
 }
 .human-capital{
-        background-image: linear-gradient(180deg, rgba(132, 5, 8, .7), rgba(132, 5, 8, .7)), url(https://daks2k3a4ib2z.cloudfront.net/57dee8d…/57df7d3…_hc-black.svg);
+        background-image: linear-gradient(180deg, rgba(132,5,8,.92), rgba(132,5,8,.92)), url(https://daks2k3a4ib2z.cloudfront.net/57dee8d…/57df7d3…_hc-black.svg);
         background-position: 0 0, 20% 50%;
         background-repeat: repeat, no-repeat;
         background-size: auto, auto 80%;
 }
 .payroll{
-        background-image: linear-gradient(180deg, rgba(132, 5, 8, .7), rgba(132, 5, 8, .7)), url(https://daks2k3a4ib2z.cloudfront.net/57dee8d…/57df8f4…_payroll-black.svg);
+        background-image: linear-gradient(180deg, rgba(132,5,8,.92), rgba(132,5,8,.92)), url(https://daks2k3a4ib2z.cloudfront.net/57dee8d…/57df8f4…_payroll-black.svg);
         background-position: 0 0, 20% 50%;
         background-repeat: repeat, no-repeat;
         background-size: auto, contain;
 }
 .workshop{
-        background-image: linear-gradient(180deg, rgba(132, 5, 8, .7), rgba(132, 5, 8, .7)), url(https://daks2k3a4ib2z.cloudfront.net/57dee8d…/57df947…_workshop-black.svg);
+        background-image: linear-gradient(180deg, rgba(132,5,8,.92), rgba(132,5,8,.92)), url(https://daks2k3a4ib2z.cloudfront.net/57dee8d…/57df947…_workshop-black.svg);
         background-position: 0 0, 20% 50%;
         background-repeat: repeat, no-repeat;
         background-size: auto, contain;
 }
 .journey{
-        background-image: linear-gradient(180deg, rgba(132, 5, 8, .7), rgba(132, 5, 8, .7)), url(https://daks2k3a4ib2z.cloudfront.net/57dee8d…/57df947…_journey-black.svg);
+       background-image: linear-gradient(180deg,rgba(132,5,8,.92),rgba(132,5,8,.92)),url("https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df947c3c801e07046181a2_journey-black.svg");
         background-position: 0 0, 20% 50%;
         background-repeat: repeat, no-repeat;
         background-size: auto, auto 90%;
