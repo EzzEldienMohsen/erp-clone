@@ -1,0 +1,64 @@
+{
+  "id": "workshop-module",
+  "theClass": "workshop",
+  "title": "WORKSHOP MODULE",
+  "text": "Ratiba Enterprise ASSET Manager allows you can track an unlimited number of pieces of equipment, making management easier than ever, since you can store a description, make, model, serial number, photos, and more for each piece of equipment. More than 20 custom fields provide the flexibility you need to store information unique to your array of equipment. If using meter or time tracking, you can select from hours, kilometers, counts, copies, or define your own customized meter type for any piece of equipment.",
+  "content": [
+    {
+      "id": 0,
+      "title": "Preventive Maintenance",
+      "para": "Ratiba™ Enterprise Workshop Module makes it easy to see when a vehicle or piece of equipment is due for service at all times. Automated and color-coded preventive maintenance alerts will automatically display upon program startup. Equipment due (or overdue) for service will be shaded 'red' while equipment soon due for service will be shaded 'yellow'. This provides an excellent visual of where your assets stand at any given time.",
+      "image": "https://assets.website-files.com/57dee8d6b08345807bd940be/57e8c184d462ab244398ad6d_image.svg"
+    },
+    {
+      "id": 1,
+      "title": "Repair Maintenance Tracking",
+      "para": "Repair maintenance tracking is essential to your equipment management. The Module enables you to track and monitor trends in repair maintenance, so you can decide whether to keep or retire a piece of equipment.",
+      "para2": "As you schedule unexpected repairs, Ratiba™ Enterprise Workshop Module automatically notifies you when they are due.",
+      "image": "https://assets.website-files.com/57dee8d6b08345807bd940be/57e8c184d462ab244398ad6d_image.svg"
+    },
+    {
+      "id": 2,
+      "title": "Due Maintenance Notifications",
+      "para": "Ratiba™ Enterprise Workshop Module automatically calculates when preventive maintenance and repairs are due for your equipment and informs you of the results. At all times, the main screen highlights equipment which requires attention.",
+      "para2": "For quick visual identification, equipment due (or overdue) for service is shaded 'red', while equipment soon due for service is shaded 'yellow'.",
+      "image": "https://assets.website-files.com/57dee8d6b08345807bd940be/57e8c184d462ab244398ad6d_image.svg"
+    },
+    {
+      "id": 3,
+      "title": "Inventory Management",
+      "para": "The comprehensive Ratiba™ Enterprise Workshop Module parts system allows you to itemize the parts your equipment needs. You can record part details, such as part numbers, descriptions, unit costs, vendors, etc. The built-in reports provide part data in the format you need to keep your parts well-organized.",
+      "image": "https://assets.website-files.com/57dee8d6b08345807bd940be/57e8c184d462ab244398ad6d_image.svg"
+    },
+    {
+      "id": 4,
+      "title": "Work Order Management",
+      "para": "The work order system generates work orders based on the maintenance due for each piece of equipment. This feature automatically adds the necessary PM, repairs, and associated parts to the work order. (You can also create work orders manually as you see fit.) After the work has been performed, and you close the work order, the Workshop Module automatically updates all related services for that piece of equipment and stores the entire work order in the history database.",
+      "image": "https://assets.website-files.com/57dee8d6b08345807bd940be/57e8c184d462ab244398ad6d_image.svg"
+    },
+    {
+      "id": 5,
+      "title": "Compliance Management",
+      "para": "Ratiba™ provides a comprehensive system to manage a range of regulatory and corporate compliance requirements. Scaling across the enterprise, from drivers license to vehicles statutory license.",
+      "para2": "The dashboard provides in-depth visibility across the compliance program, enabling you to proactively identify and address areas of concern.",
+      "image": "https://assets.website-files.com/57dee8d6b08345807bd940be/57e8c184d462ab244398ad6d_image.svg"
+    }
+  ],
+  "cards": [
+    {
+      "id": 0,
+      "image": "https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df7c9d813bf6950b06a55d_hc-red.svg",
+      "text": "Human Capital Management"
+    },
+    {
+      "id": 1,
+      "image": "https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df8f39437ad7d20b3c2918_payroll-red.svg",
+      "text": "payroll manager"
+    },
+    {
+      "id": 2,
+      "image": "https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df947c437ad7d20b3c3a29_journey-red.svg",
+      "text": "journey management"
+    }
+  ]
+}

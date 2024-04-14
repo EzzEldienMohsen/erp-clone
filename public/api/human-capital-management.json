@@ -1,0 +1,64 @@
+{
+    "id":"human-capital-management",
+    "theClass":"human-capital",
+    "title":"HUMAN CAPITAL MANAGEMENT",
+    "text":"Full-service Human Capital Managements for small- to medium- sized businesses operating in a single country. With Ratiba Enterprise, CRM module you benefit from a rich array of modules to suit the specific needs of your company and your budget. For businesses growing out of Ratiba Enterprise, or for companies that need a comprehensive HR platform, Ratiba Enterprise Professional offers superior management and cost inefficiencies across the board.",
+    "content":[
+        {
+        "id":0,
+        "title":"System Administration & User Roles",
+        "para":"With the same streamlined flexibility of Ratiba Enterprise, Professional provides HR managers with centralized system administration. The System Administration module is packed with tools to create data sets, extract reports and create a well-functioning and organized HR environment.",
+        "image":"https://assets.website-files.com/57dee8d6b08345807bd940be/57e8b317c680771774991f39_system_admin-p-500x346.png"
+    },
+    {
+        "id":1,
+        "title":"Leave /Time off Management",
+        "para":"Use the Leave/Time off Management module to process employee leave requests with ease. This highly flexible module integrates calendaring and company leave policies to support and monitor employee time off. Whether you need to generate graphical reports or program automatic E-mail notifications for staff on leave, this module meets your needs.",
+        "image":"https://assets.website-files.com/57dee8d6b08345807bd940be/57e8bb73d462ab244398a672_leave_management-p-500x346.png"
+    },
+    {
+        "id":2,
+        "title":"Training",
+        "para":"Centrally manage your training programs with this versatile Ratiba Enterprise Professional module. From program creation and budgeting to scheduling, evaluation and employee development plans, and this module keeps your training program on track.",
+        "image":"https://assets.website-files.com/57dee8d6b08345807bd940be/57e8bb7485a476a775f41bf7_training-p-500x346.png"
+    },
+    {
+        "id":3,
+        "title":"Performance Assessment",
+        "para":"Performance assessment is a natural HR task. The Performance module of Ratiba Enterprise Professional simplifies and speeds your performance review process. Create self-scaling job evaluations based on specific key performance indicators.",
+        "para2":"Coordinate your evaluation process and fine-tune performance objectives with this Ratiba Enterprise module",
+        "image":"https://assets.website-files.com/57dee8d6b08345807bd940be/57e8bb74c680771774992d9c_perfomance-asmt-p-500x346.png"
+    },
+    {
+        "id":4,
+        "title":"Cloud Environment",
+        "para":"Ratiba Enterprise CRM environment as adaptable as you are. Enjoy the power and flexibility to monitor and manage HR services when you are away from the office. Ratiba Enterprise is multi-platform and web-based.",
+        "image":"https://assets.website-files.com/57dee8d6b08345807bd940be/57e8c184d462ab244398ad6d_image.svg"
+    },
+    {
+        "id":5,
+        "title":"Cloud Environment",
+        "para":"Create different document templates such as, employee contracts, appointment letters, and employee termination letters and export these documents from employee profiles into PDF for printing.",
+        "para2":"The document manager makes it easy to create, distribute and store documents that are confidential and/or specific to a particular function such as on-boarding a new employee, completing a performance review, or any other task.",
+        "image":"https://assets.website-files.com/57dee8d6b08345807bd940be/57e8bb7485a476a775f41bf8_doc_manager-p-500x346.png"
+    }
+],
+"cards":[
+    {
+        "id":0,
+        "image":"https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df8f39437ad7d20b3c2918_payroll-red.svg",
+        "text":"payroll manager"
+    },
+    {
+        "id":1,
+        "image":"https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df947cb08345807bda7f74_workshop-red.svg",
+        "text":"workshop module"
+    },
+    {
+        "id":2,
+        "image":"https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df947c437ad7d20b3c3a29_journey-red.svg",
+        "text":"journey management"
+    }
+]
+}
+

@@ -1,0 +1,52 @@
+{
+  "id": "journey-management",
+  "theClass": "journey",
+  "title": "JOURNEY MANAGEMENT",
+  "text": "The Journey Management Suite provides the greatest visibility into the real-time workings of field staff and gives business owners a dynamic tool to ensure that each system is working together to guarantee the most efficient and accurate performance in the field. Ratiba offers real-time job creation, tracking (including estimated time of arrival and completion), routing (including pre-planned routes and dynamic changes throughout the day), dispatching, customer service notifications, route compliance reporting, journey completion reporting.",
+  "content": [
+    {
+      "id": 0,
+      "title": "Easy System Configuration",
+      "para": "Define and configure objects that are relevant to the business encompassing objects such as scheduling; crew management; customers; active work orders; historic work orders; customers' locations; safe deliveries and other unlimited definable business objects.",
+      "image": "https://assets.website-files.com/57dee8d6b08345807bd940be/57e8ef3985a476a775f4ab5d_easy-config-p-500x346.png"
+    },
+    {
+      "id": 1,
+      "title": "End-to-End Process",
+      "para": "Limit user access and visibility to the relevant objects. Users see and use only the information that they need to perform their role.",
+      "para2": "Journeys are maintained and managed in the one mobile workforce management platform meaning that a work order is created, scheduled, responded to in the field and closed all using the same system. There is no need to involve outside systems.",
+      "image": "https://assets.website-files.com/57dee8d6b08345807bd940be/57e8efd7d1bc77b27512ee86_role-p-500x327.png"
+    },
+    {
+      "id": 2,
+      "title": "Consistent User Experience",
+      "para": "Users never have to change screens because the end-to-end process uses using the same mobile workforce management platform, giving users a consistent, reliable, and fully understandable working environment.",
+      "para2": "*Escalation logic where applicable",
+      "image": "https://assets.website-files.com/57dee8d6b08345807bd940be/57e8c184d462ab244398ad6d_image.svg"
+    },
+    {
+      "id": 3,
+      "title": "Disciplinary Tracking",
+      "para": "It is important to document all steps associated with handling discipline with staff. Ratiba allows your business to keep track of who’s walking on thin ice and who’s not.",
+      "para2": "Every successful industry needs discipline with their employees and action should be taken when standards are seriously violated. This generalized workflow covers actions such as Verbal Warnings, Written Warnings, Probation, and Suspension.",
+      "image": "https://assets.website-files.com/57dee8d6b08345807bd940be/57e8d611c68077177499598"
+    }
+  ],
+  "cards": [
+    {
+      "id": 0,
+      "image": "https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df7c9d813bf6950b06a55d_hc-red.svg",
+      "text": "Human Capital Management"
+    },
+    {
+      "id": 1,
+      "image": "https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df8f39437ad7d20b3c2918_payroll-red.svg",
+      "text": "payroll manager"
+    },
+    {
+      "id": 2,
+      "image": "https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df947cb08345807bda7f74_workshop-red.svg",
+      "text": "workshop module"
+    }
+  ]
+}
