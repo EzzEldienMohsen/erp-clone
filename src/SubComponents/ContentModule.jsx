@@ -13,14 +13,21 @@ const ContentModule = ({content}) => {
             <img
               src={sec.image}
               alt="img"
-              className="shadow-2xl md:w-2/5"
+              className={`${sec.title ? 'shadow-2xl md:w-2/5' : 'md:w-2/5 lg:w-3/5'}`}
             />
 
-            <div className="flex flex-col mt-2 gap-4 md:gap-6">
+            <div className="flex flex-col mt-4 gap-4 md:gap-6">
               <h3 className="text-[#6f6f6f] text-xl md:text-2xl lg:text-3xl ">
-                {sec.title}
+                {sec?.title}
               </h3>
-              <p className="text-[#333] text-sm md:text-md">{sec.para}</p>
+              <p
+                className={`${
+                  sec.title ? 'text-[#333] text-sm md:text-md' : 'text-[#6f6f6f] text-sm md:text-md lg:text-lg '
+                }`}
+                // className="text-[#333] text-sm md:text-md"
+              >
+                {sec.para}
+              </p>
               {sec.para2 ? (
                 <p className="text-[#333] text-sm md:text-md">{sec?.para2}</p>
               ) : sec.list ? (
@@ -34,7 +41,7 @@ const ContentModule = ({content}) => {
                   })}
                 </ul>
               ) : (
-               <div className="hidden"></div>
+                <div className="hidden"></div>
               )}
             </div>
           </div>

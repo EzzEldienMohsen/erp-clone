@@ -136,3 +136,48 @@ export const footerLogo =
     email: '',
   };
 
+  export const aboutContent = [
+    {
+      id: 0,
+      image:
+        'https://assets.website-files.com/57dee8d6b08345807bd940be/582b5ad3b571af886859e7eb_about1-p-1080x748.jpeg',
+      para: 'Ratiba™ Enterprise Suite minimizes the complexities of traditional enterprise resource planning by delivering software that emphasizes ease of use, collaboration, and responsiveness. With the flexibility to be run in the cloud, Ratiba Enterprise Suite provides a comprehensive set of global functionality, enabling you to drive profitability, inspire innovation, and respond quickly to an evolving business environment.',
+    },
+    {
+      id: 1,
+      image:
+        'https://assets.website-files.com/57dee8d6b08345807bd940be/582b5da6cf98695e1607f907_about2-p-800x554.jpeg',
+      para: 'The Suite offers a modular approach with robust capabilities focused on reducing costs, streamlining processes, and improving customer responsiveness across the enterprise, all top priorities toward achieving continued growth and profitability. Our focus on the small and medium sized companies means our solutions are "right sized" and affordable this means you don"t need to invest money in applications you don"t need. Instead, Ratiba Enterprise allows you to invest in a decision support system designed to meet your needs.',
+    },
+  ];
+
+  export const aboutCards = [
+    {
+      id: 0,
+      image:
+        'https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df7c9d813bf6950b06a55d_hc-red.svg',
+      text: 'Human Capital Management',
+      to: '/human-capital-management',
+    },
+    {
+      id: 1,
+      image:
+        'https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df8f39437ad7d20b3c2918_payroll-red.svg',
+      text: 'payroll manager',
+      to: '/payroll-management',
+    },
+    {
+      id: 2,
+      image:
+        'https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df947cb08345807bda7f74_workshop-red.svg',
+      text: 'workshop module',
+      to: '/workshop-module',
+    },
+    {
+      id: 3,
+      image:
+        'https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df947c437ad7d20b3c3a29_journey-red.svg',
+      text: 'journey management',
+      to: '/journey-management',
+    },
+  ];

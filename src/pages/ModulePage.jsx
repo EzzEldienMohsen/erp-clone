@@ -24,7 +24,7 @@ const ModulePage = () => {
     <div className="w-full box-border ">
       <HeroModule theClass={theClass} text={text} title={title} />
       <ContentModule content={content} />
-      <CardsModule cards={cards}/>
+      <CardsModule cards={cards} text="related modules" />
     </div>
   );
 };

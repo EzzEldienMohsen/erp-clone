@@ -64,7 +64,7 @@ const TheDrawer = ({ open, closeDrawer }) => {
         <hr className="  bg-gray-300 w-full h-[3px] rounded-3xl" />
         <li className="px-4 pt-4 hover:text-[#9b0808] active:text-[#9b0808] grid grid-cols-3">
           <Link
-            to="/"
+            to="/about"
             className="hover:text-[#9b0808] active:text-[#9b0808] text-[#1c1c1c] gap-5 font-light flex py-2 justify-between items-center col-span-3 col-start-1 text-lg md:text-xl lg:text:xl"
           >
             <LiaSuitcaseSolid className="w-5 lg:w-8" />
