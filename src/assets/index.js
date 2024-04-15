@@ -25,19 +25,19 @@ export const footerLogo =
  export const moduleLinks = [
    {
      text: 'Human Capital Management',
-     to: '/Human-Capital-Management',
+     to: '/human-capital-management',
    },
    {
      text: 'Payroll Manager',
-     to: '/Payroll-Manager',
+     to: '/payroll-management',
    },
    {
      text: 'Workshop Module',
-     to: '/Workshop-Module',
+     to: '/workshop-module',
    },
    {
      text: 'Journey Management',
-     to: '/Journey-Management',
+     to: '/journey-management',
    },
  ];
   export const buttonModule = [

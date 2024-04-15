@@ -11,7 +11,7 @@ const FooterLink = ({title,link}) => {
         {link.map((link) => {
           return (
             <li key={link.text} className="mt-3">
-              <Link to="">{link.text}</Link>
+              <Link to={link.to}>{link.text}</Link>
             </li>
           );
         })}

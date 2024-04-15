@@ -35,25 +35,25 @@ const TheDrawer = ({ open, closeDrawer }) => {
 
             <div className="collapse-content bg-white text-md md:text-lg lg:text:lg flex flex-col justify-start items-start py-2 text-black rounded-none">
               <Link
-                to=""
+                to="/human-capital-management"
                 className="capitalize pt-2 hover:text-[#9b0808] active:text-[#9b0808]"
               >
                 human capital management
               </Link>
               <Link
-                to=""
+                to="/payroll-management"
                 className="capitalize pt-2 hover:text-[#9b0808] active:text-[#9b0808]"
               >
                 pay roll manager
               </Link>
               <Link
-                to=""
+                to="/workshop-module"
                 className="capitalize pt-2 hover:text-[#9b0808] active:text-[#9b0808]"
               >
                 workshop module
               </Link>
               <Link
-                to=""
+                to="/journey-management"
                 className="capitalize pt-2 hover:text-[#9b0808] active:text-[#9b0808]"
               >
                 journey management
