@@ -14,6 +14,5 @@ export default withMT({
   plugins: [
     require('@tailwindcss/typography'),
     require('daisyui'),
-    require('flowbite/plugin'),
-  ],
+    ],
 });

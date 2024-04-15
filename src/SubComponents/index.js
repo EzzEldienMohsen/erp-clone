@@ -5,3 +5,5 @@ export { default as LandingDemo } from './LandingDemo';
 export {default as FooterLogoSection} from './FooterLogoSection';
 export {default as FooterLink} from './FooterLink';
 export {default as FooterContactInfo} from './FooterContactInfo';
+export {default as ContentModule} from './ContentModule';
+export { default as HeroModule } from './HeroModule';

@@ -33,12 +33,12 @@ const TheDrawer = ({ open, closeDrawer }) => {
               <p className="text-md md:text-xl lg:text:xl">Modules</p>
             </div>
 
-            <div className="collapse-content bg-white text-md md:text-lg lg:text:lg flex flex-col justify-start items-start py-2 text-black rounded-none">
+            <div className="collapse-content bg-white text-sm md:text-lg lg:text:lg flex flex-col justify-start items-start py-2 text-black rounded-none">
               <Link
                 to="/human-capital-management"
                 className="capitalize pt-2 hover:text-[#9b0808] active:text-[#9b0808]"
               >
-                human capital management
+                human  management
               </Link>
               <Link
                 to="/payroll-management"
