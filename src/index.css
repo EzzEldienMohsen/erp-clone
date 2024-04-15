@@ -71,6 +71,14 @@
         background-size: auto, 25%;
 
 }
+.get-in-touch{
+        background-image: linear-gradient(180deg,rgba(132,5,8,.7),rgba(132,5,8,.7)),url("https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/582b4eea2f37bac07c206abb_send.svg");;
+         background-position: 20% 60%;
+        background-color: #840508;
+        background-repeat: no-repeat, no-repeat;
+        background-size: auto, 25%;
+
+}
 .payroll{
         background-image: linear-gradient(180deg,rgba(132,5,8,.7),rgba(132,5,8,.7)),url("https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df8f4d437ad7d20b3c291b_payroll-black.svg");;
          background-position: 20% 60%;

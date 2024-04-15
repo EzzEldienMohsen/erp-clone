@@ -10,7 +10,8 @@ const HeroModule = ({theClass,title,text}) => {
           {title}
         </h3>
       </div>
-      <div className="bg-white flex justify-center items-center w-full h-auto py-8 px-4 lg:py-16 lg:px-8">
+      
+      <div className={`${theClass=="get-in-touch" ? "hidden" :""} bg-white flex justify-center items-center w-full h-auto py-8 px-4 lg:py-16 lg:px-8`}>
         <p className="text-sm md:text-md lg:text-lg text-center text-[#6f6f6f]">
           {text}
         </p>

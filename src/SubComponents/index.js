@@ -9,3 +9,5 @@ export {default as ContentModule} from './ContentModule';
 export { default as HeroModule } from './HeroModule';
 export { default as CardsModule } from './CardsModule';
 export { default as PrivacyTerms } from './PrivacyTerms';
+export { default as TheMap } from './TheMap';
+export { default as ContactInformation } from './ContactInformation';
