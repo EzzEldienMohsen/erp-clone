@@ -1,5 +1,5 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import { About, Home, Landing, ModulePage } from './pages';
+import { About, Home, Landing, ModulePage, PrivacyPage } from './pages';
 import { AnimatePresence } from 'framer-motion';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
@@ -39,6 +39,10 @@ const router = createBrowserRouter([
       {
         path:"/about",
         element:<About/>
+      },
+      {
+        path:"/privacy",
+        element:<PrivacyPage/>
       }
     ],
   },

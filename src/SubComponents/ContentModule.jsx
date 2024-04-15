@@ -28,9 +28,9 @@ const ContentModule = ({content}) => {
               >
                 {sec.para}
               </p>
-              {sec.para2 ? (
+             
                 <p className="text-[#333] text-sm md:text-md">{sec?.para2}</p>
-              ) : sec.list ? (
+            
                 <ul className="list-disc text-[#333] text-sm md:text-md">
                   {sec?.list?.map((li) => {
                     return (
@@ -40,9 +40,7 @@ const ContentModule = ({content}) => {
                     );
                   })}
                 </ul>
-              ) : (
-                <div className="hidden"></div>
-              )}
+             
             </div>
           </div>
         );

@@ -8,3 +8,4 @@ export {default as FooterContactInfo} from './FooterContactInfo';
 export {default as ContentModule} from './ContentModule';
 export { default as HeroModule } from './HeroModule';
 export { default as CardsModule } from './CardsModule';
+export { default as PrivacyTerms } from './PrivacyTerms';
