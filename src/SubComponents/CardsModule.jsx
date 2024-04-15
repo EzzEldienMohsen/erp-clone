@@ -15,7 +15,7 @@ const CardsModule = ({cards,text}) => {
               <Link
                 to={card.to}
                 key={card.id}
-                className={`shadow-xl  hover:lg:shadow-[#840508] flex flex-col w-[60%] md:w-[20%] gap-6 justify-center items-center aspect-square`}
+                className={`shadow-xl  hover:lg:shadow-[#840508] flex flex-col w-[60%] md:w-[25%] gap-6 justify-center items-center aspect-square`}
               >
                 <img src={card.image} alt="img" className="w-2/5 md:w-1/3" />
                 <h4 className="text-[#840508] text-sm md:text-md lg:text-lg">
