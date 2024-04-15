@@ -5,7 +5,7 @@ const Landing = () => {
     <div className="box-border w-[100vw]">
       <LandingHero />
       <LandingModule />
-      <LandingDemo/>
+      <LandingDemo />
     </div>
   );
 };
