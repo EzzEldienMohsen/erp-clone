@@ -21,7 +21,7 @@ const ModulePage = () => {
   const { data } = useLoaderData();
   const { title, text, theClass, content, cards } = data;
   return (
-    <div className="w-full box-border ">
+    <div className=" ">
       <HeroModule theClass={theClass} text={text} title={title} />
       <ContentModule content={content} />
       <CardsModule cards={cards} text="related modules" />

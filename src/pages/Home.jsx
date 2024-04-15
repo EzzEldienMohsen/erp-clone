@@ -3,7 +3,7 @@ import { Footer, Header } from '../components';
 
 const Home = () => {
   return (
-    <div className="w-full h-[100vh] relative box-border overflow-x-hidden">
+    <div className=" h-[100vh] relative  ">
       <Header />
       <Outlet />
       <Footer />

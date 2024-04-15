@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const CardsModule = ({cards,text}) => {
   return (
     
-      <div className="w-full bg-white flex flex-col py-8 md:py-16 px-4 md:px-8 justify-center items-center border-t-2 border-t-[silver] mt-8">
+      <div className=" bg-white flex flex-col py-8 md:py-16 px-4 md:px-8 justify-center items-center border-t-2 border-t-[silver] mt-8">
         <h2 className="text-[#333] text-xl md:text-2xl lg:text-3xl capitalize mb-8">
           {text}
         </h2>
