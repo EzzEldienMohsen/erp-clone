@@ -20,13 +20,13 @@ const LandingHero = () => {
           </p>
           <div className="flex flex-col mt-8 md:flex-row justify-center md:justify-between w-full md:w-auto gap-4 md:gap-8 items-center">
             <Link
-              to="/"
+              to="/about"
               className="btn  md:w-[25vw] text-xl w-[50vw] rounded-sm bg-white text-[#9b0808] uppercase "
             >
               about us
             </Link>
             <Link
-              to="/"
+              to="/human-capital-management"
               className="btn rounded-sm  md:mt-0 w-[50vw] md:w-[25vw] bg-[#9b0808] border-[#9b0808] text-white uppercase text-xl"
             >
               get started
