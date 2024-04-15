@@ -13,10 +13,10 @@ const ContentModule = ({content}) => {
             <img
               src={sec.image}
               alt="img"
-              className="shadow-2xl md:w-2/5 lg:w-auto"
+              className="shadow-2xl md:w-2/5"
             />
 
-            <div className="flex flex-col gap-4 md:gap-6">
+            <div className="flex flex-col mt-2 gap-4 md:gap-6">
               <h3 className="text-[#6f6f6f] text-xl md:text-2xl lg:text-3xl ">
                 {sec.title}
               </h3>

@@ -36,17 +36,20 @@
     {
       "id": 0,
       "image": "https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df7c9d813bf6950b06a55d_hc-red.svg",
-      "text": "Human Capital Management"
+      "text": "Human Capital Management",
+      "to":"/human-capital-management"
     },
     {
       "id": 1,
       "image": "https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df8f39437ad7d20b3c2918_payroll-red.svg",
-      "text": "payroll manager"
+      "text": "payroll manager",
+      "to":"/payroll-management"
     },
     {
       "id": 2,
       "image": "https://daks2k3a4ib2z.cloudfront.net/57dee8d6b08345807bd940be/57df947cb08345807bda7f74_workshop-red.svg",
-      "text": "workshop module"
+      "text": "workshop module",
+      "to":"/workshop-module"
     }
   ]
 }
