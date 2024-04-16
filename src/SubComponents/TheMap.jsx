@@ -3,9 +3,9 @@ import {
   AdvancedMarker,
   Map,
 } from '@vis.gl/react-google-maps';
-const key = import.meta.env.VITE_API_KEY;
+const key = import.meta.env.VITE_API_DOOR;
 const mapId = import.meta.env.VITE_MAP_ID;
-
+console.log(key)
 
 const TheMap = () => {
         // style={{ width: '40vw', height: '40vh' }}
