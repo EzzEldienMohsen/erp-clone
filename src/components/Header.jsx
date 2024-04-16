@@ -28,17 +28,17 @@ const Header = () => {
 
   return (
     <motion.header
-      transition={{ duration: 1, ease: "easeInOut", }}
+      transition={{ duration: 0.5, ease: "easeInOut", }}
       initial="bg-transparent"
       animate={isScrolled ? 'bg-[#1f1f1f]' : 'bg-transparent'}
       className={`fixed top-0 left-0 w-full flex items-center ${
         isScrolled ? 'bg-[#1f1f1f]' : 'bg-transparent'
-      } justify-between border-b border-[#D1D1D1] px-4 md:px-8`}
+      } justify-between border-b border-[#D1D1D1] px-4 md:px-8 `}
     >
       {/* Menu Button */}
       <button
         onClick={openDrawer}
-        className="flex items-center justify-center gap-3 text-white lg:gap-8 h-14 md:h-16 w-[20%] md:w-[15%] bg-inherit hover:bg-[#9b0808] active:bg-[#9b0808] border-r border-[#D1D1D1] lg:bg-transparent"
+        className="flex items-center justify-center gap-3 text-white lg:gap-8 h-14 md:h-16 w-[25%] md:w-[20%] bg-inherit hover:bg-[#9b0808] active:bg-[#9b0808] border-r border-[#D1D1D1] lg:bg-transparent"
       >
         <FaBars className="w-6 h-6 md:w-8 md:h-8" />
         <h1 className="text-sm md:text-lg">MENU</h1>
@@ -46,12 +46,12 @@ const Header = () => {
       </button>
 
       {/* Logo */}
-      <div className="flex justify-center items-center w-[60%] md:w-[50%]">
+      <div className="flex justify-center items-center w-[50%] md:w-[70%]">
         <img src={isScrolled?redLogo:logo} alt="logo" className="w-3/5 md:w-1/5" />
       </div>
 
       {/* Login Button */}
-      <div className="flex items-center gap-3 text-white lg:gap-8 h-14 md:h-16 w-[20%] md:w-[15%]] justify-center hover:bg-[#9b0808] active:bg-[#9b0808] border-l border-[#D1D1D1]">
+      <div className="flex items-center gap-3 text-white lg:gap-8 h-14 md:h-16 w-[25%] md:w-[20%] justify-center hover:bg-[#9b0808] active:bg-[#9b0808] border-l border-[#D1D1D1]">
         <MdLock className="w-6 h-6 md:w-8 md:h-8" />
         <h1 className="text-sm md:text-lg">LOGIN</h1>
       </div>
