@@ -2,7 +2,7 @@ import { LandingDemo, LandingHero, LandingModule } from "../SubComponents";
 
 const Landing = () => {
   return (
-    <div className="">
+    <div>
       <LandingHero />
       <LandingModule />
       <LandingDemo />

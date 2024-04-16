@@ -33,7 +33,7 @@ const Header = () => {
       animate={isScrolled ? 'bg-[#1f1f1f]' : 'bg-transparent'}
       className={`fixed top-0 left-0 w-full flex items-center ${
         isScrolled ? 'bg-[#1f1f1f]' : 'bg-transparent'
-      } justify-between border-b border-[#D1D1D1] px-4 md:px-8 `}
+      } justify-between border-b border-[#D1D1D1]`}
     >
       {/* Menu Button */}
       <button
