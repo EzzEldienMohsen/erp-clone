@@ -13,7 +13,6 @@ const moduleData = (id) => {
 export const loader = (queryClient)=> async ({params})=> {
     const {id} = params;
     const data = await queryClient.ensureQueryData(moduleData(id));
-    console.log(data.data)
     return data
 } ;
 
