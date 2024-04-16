@@ -53,7 +53,7 @@ const router = createBrowserRouter([
 ]);
 function App() {
   return (
-    <AnimatePresence mode="wait">
+    <AnimatePresence mode="exitBeforeEnter">
       <QueryClientProvider client={queryCLient}>
         <RouterProvider router={router} />
         <ReactQueryDevtools initialIsOpen={false} />

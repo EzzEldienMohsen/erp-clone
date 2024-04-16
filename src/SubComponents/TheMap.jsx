@@ -13,7 +13,7 @@ const TheMap = () => {
   return (
     <APIProvider apiKey={key}>
       <Map
-        className='w-[60vw] h-[25vh] md:h-[60vh] md:w-[40vw]  lg:h-[50vh] lg:w-[40vw]'
+        className='w-[60vw] h-[25vh] md:h-[60vh] md:w-[40vw] lg:h-[50vh] lg:w-[40vw]'
         zoom={12}
         center={{ lat: 53.54992, lng: 10.00678 }}
         mapId={mapId}

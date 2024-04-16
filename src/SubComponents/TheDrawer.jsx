@@ -12,7 +12,7 @@ const TheDrawer = ({ open, closeDrawer }) => {
     <Drawer
       open={open}
       onClose={closeDrawer}
-      className="py-8 mt-[95px] bg-gray-200 w-[40vw] md:w-[35vw] lg:w-[40vw] overflow-y-auto"
+      className="py-8 mt-[95px]  bg-gray-200 w-[40vw] md:w-[35vw] lg:w-[40vw] overflow-y-auto"
     >
       <ul className=" flex items-start justify-center flex-col">
         <li className="px-4 mb-2 hover:text-[#9b0808] active:text-[#9b0808] grid grid-cols-3">
