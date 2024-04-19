@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import { useState } from 'react';
 import { Drawer } from '@material-tailwind/react';
 import { Link } from 'react-router-dom';
 import { IoHomeOutline } from 'react-icons/io5';
@@ -8,90 +9,104 @@ import { GiShieldcomb } from 'react-icons/gi';
 import { GoMail } from 'react-icons/go';
 
 const TheDrawer = ({ open, closeDrawer }) => {
+  const [isModulesOpen, setIsModulesOpen] = useState(false);
+
+  const toggleModules = () => {
+    setIsModulesOpen(!isModulesOpen);
+  };
+
   return (
     <Drawer
       open={open}
       onClose={closeDrawer}
-      className="py-8 mt-[95px]  bg-gray-200 w-[40vw] md:w-[35vw] lg:w-[40vw] overflow-y-auto"
+      className="py-8 mt-[95px] bg-gray-200 w-[80vw] md:w-[60vw] lg:w-[40vw] overflow-y-auto"
     >
-      <ul className=" flex items-start justify-center flex-col">
-        <li className="px-4 mb-2 hover:text-[#9b0808] active:text-[#9b0808] grid grid-cols-3">
+      <ul className="flex flex-col items-center justify-start space-y-4">
+        <li className="w-full">
           <Link
             to="/"
-            className="hover:text-[#9b0808] active:text-[#9b0808] text-[#1c1c1c] gap-5 font-light flex justify-between items-center col-span-2 col-start-1 text-lg md:text-xl lg:text:xl"
+            className="flex items-center justify-start gap-2 text-lg lg:text-xl text-[#1c1c1c] hover:text-[#9b0808] active:text-[#9b0808]"
           >
-            <IoHomeOutline className="w-5 lg:w-8" />
-            <p className="text-md md:text-xl lg:text:xl">Home</p>
+            <IoHomeOutline className="w-8 h-8 lg:w-10 lg:h-10" />
+            <span>Home</span>
           </Link>
         </li>
-        <hr className="mt-4 mb-1 bg-gray-300 w-full h-[3px] rounded-3xl" />
         <li className="w-full">
-          <div className="collapse collapse-arrow w-inherit rounded-none">
-            <input type="checkbox" className="w-full hover:text-[#9b0808]" />
-            <div className="collapse-title text-lg md:text-xl lg:text:xl flex items-center gap-4 hover:text-[#9b0808] active:text-[#9b0808] text-[#1c1c1c]">
-              <PiShareNetworkThin className="w-5 lg:w-8" />
-              <p className="text-md md:text-xl lg:text:xl">Modules</p>
-            </div>
-
-            <div className="collapse-content bg-white text-sm md:text-lg lg:text:lg flex flex-col justify-start items-start py-2 text-black rounded-none">
-              <Link
-                to="/human-capital-management"
-                className="capitalize pt-2 hover:text-[#9b0808] active:text-[#9b0808]"
-              >
-                human  management
-              </Link>
-              <Link
-                to="/payroll-management"
-                className="capitalize pt-2 hover:text-[#9b0808] active:text-[#9b0808]"
-              >
-                pay roll manager
-              </Link>
-              <Link
-                to="/workshop-module"
-                className="capitalize pt-2 hover:text-[#9b0808] active:text-[#9b0808]"
-              >
-                workshop module
-              </Link>
-              <Link
-                to="/journey-management"
-                className="capitalize pt-2 hover:text-[#9b0808] active:text-[#9b0808]"
-              >
-                journey management
-              </Link>
-            </div>
+          <div className="flex flex-col">
+            <label
+              htmlFor="modules"
+              className="flex items-center justify-start gap-2 text-lg lg:text-xl text-[#1c1c1c] hover:text-[#9b0808] active:text-[#9b0808] cursor-pointer"
+              onClick={toggleModules}
+            >
+              <PiShareNetworkThin className="w-8 h-8 lg:w-10 lg:h-10" />
+              <span>Modules</span>
+            </label>
+            <input type="checkbox" id="modules" className="hidden" />
+            {isModulesOpen && (
+              <div className="flex flex-col space-y-2 ml-4">
+                <Link
+                  to="/human-capital-management"
+                  className="text-sm lg:text-lg text-black hover:text-[#9b0808] active:text-[#9b0808]"
+                >
+                  Human Capital Management
+                </Link>
+                <Link
+                  to="/payroll-management"
+                  className="text-sm lg:text-lg text-black hover:text-[#9b0808] active:text-[#9b0808]"
+                >
+                  Payroll Management
+                </Link>
+                <Link
+                  to="/workshop-module"
+                  className="text-sm lg:text-lg text-black hover:text-[#9b0808] active:text-[#9b0808]"
+                >
+                  Workshop Module
+                </Link>
+                <Link
+                  to="/journey-management"
+                  className="text-sm lg:text-lg text-black hover:text-[#9b0808] active:text-[#9b0808]"
+                >
+                  Journey Management
+                </Link>
+              </div>
+            )}
           </div>
         </li>
-        <hr className="  bg-gray-300 w-full h-[3px] rounded-3xl" />
-        <li className="px-4 pt-4 hover:text-[#9b0808] active:text-[#9b0808] grid grid-cols-3">
+        <hr className="w-full border-t border-gray-300" />
+        {/* Add border instead of bg-gray-300 */}
+        <li className="w-full">
           <Link
             to="/about"
-            className="hover:text-[#9b0808] active:text-[#9b0808] text-[#1c1c1c] gap-5 font-light flex py-2 justify-between items-center col-span-3 col-start-1 text-lg md:text-xl lg:text:xl"
+            className="flex items-center justify-start gap-2 text-lg lg:text-xl text-[#1c1c1c] hover:text-[#9b0808] active:text-[#9b0808]"
           >
-            <LiaSuitcaseSolid className="w-5 lg:w-8" />
-            <p className="text-md md:text-xl lg:text:xl">About Ratiba</p>
+            <LiaSuitcaseSolid className="w-8 h-8 lg:w-10 lg:h-10" />
+            <span>About Ratiba</span>
           </Link>
         </li>
-        <hr className="mt-2 bg-gray-300 w-full h-[3px] rounded-3xl" />
-        <li className="px-4 pt-2 hover:text-[#9b0808] active:text-[#9b0808] grid grid-cols-3">
+        <hr className="w-full border-t border-gray-300" />
+        {/* Add border instead of bg-gray-300 */}
+        <li className="w-full">
           <Link
             to="/privacy"
-            className="hover:text-[#9b0808] active:text-[#9b0808] text-[#1c1c1c] gap-5 font-light flex py-2 justify-between items-center col-span-3 col-start-1 text-lg md:text-xl lg:text:xl"
+            className="flex items-center justify-start gap-2 text-lg lg:text-xl text-[#1c1c1c] hover:text-[#9b0808] active:text-[#9b0808]"
           >
-            <GiShieldcomb className="w-5 lg:w-8" />
-            <p className="text-md md:text-xl lg:text:xl">Terms & Privacy</p>
+            <GiShieldcomb className="w-8 h-8 lg:w-10 lg:h-10" />
+            <span>Terms & Privacy</span>
           </Link>
         </li>
-        <hr className="mt-2 bg-gray-300 w-full h-[3px] rounded-3xl" />
-        <li className="px-4 pt-2 hover:text-[#9b0808] active:text-[#9b0808] grid grid-cols-3">
+        <hr className="w-full border-t border-gray-300" />
+        {/* Add border instead of bg-gray-300 */}
+        <li className="w-full">
           <Link
             to="/contact"
-            className="hover:text-[#9b0808] active:text-[#9b0808] text-[#1c1c1c] gap-5 font-light flex py-2 justify-between items-center col-span-3 col-start-1 text-lg md:text-xl lg:text:xl"
+            className="flex items-center justify-start gap-2 text-lg lg:text-xl text-[#1c1c1c] hover:text-[#9b0808] active:text-[#9b0808]"
           >
-            <GoMail className="w-5 lg:w-8" />
-            <p className="text-md md:text-xl lg:text:xl">Get In touch</p>
+            <GoMail className="w-8 h-8 lg:w-10 lg:h-10" />
+            <span>Get In Touch</span>
           </Link>
         </li>
-        <hr className="mt-2 bg-gray-300 w-full h-[3px] rounded-3xl" />
+        <hr className="w-full border-t border-gray-300" />
+        {/* Add border instead of bg-gray-300 */}
       </ul>
     </Drawer>
   );

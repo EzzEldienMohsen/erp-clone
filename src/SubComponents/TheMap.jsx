@@ -7,10 +7,8 @@ const key = import.meta.env.VITE_API_DOOR;
 const mapId = import.meta.env.VITE_MAP_ID;
 
 const TheMap = () => {
-        // style={{ width: '40vw', height: '40vh' }}
-
   return (
-    <APIProvider apiKey={key}>
+    <APIProvider apiKey={key} className="-z-10">
       <Map
         className='w-[60vw] h-[25vh] md:h-[60vh] md:w-[40vw] lg:h-[50vh] lg:w-[40vw]'
         zoom={12}
