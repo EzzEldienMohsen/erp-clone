@@ -19,7 +19,7 @@ const TheDrawer = ({ open, closeDrawer }) => {
     <Drawer
       open={open}
       onClose={closeDrawer}
-      className="py-8 mt-[54px] md:mt-[64px] lg:mt-[95px] bg-gray-200 w-[80vw] md:w-[60vw] lg:w-[40vw] overflow-y-auto"
+      className="py-8 mt-[54px] md:mt-[64px] bg-gray-200 w-[80vw] md:w-[60vw] lg:w-[40vw] overflow-y-auto"
     >
       <ul className="flex flex-col items-center justify-evenly space-y-4">
         <li className="w-full">
